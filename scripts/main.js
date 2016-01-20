@@ -1,1 +1,1 @@
-"use strict";!function(){var e=document.querySelector(".email.obfuscated");if(e.dataset){var t=e.dataset.email;e.setAttribute("href","mailto:"+t.replace(/ /,"@").replace(/ /,".")),console.log(t)}}();
+"use strict";!function(){var e=document.querySelector(".email.obfuscated");if(e.dataset){var t=e.dataset.email;e.setAttribute("href","mailto:"+t.replace(/ /,"@").replace(/ /,"."))}}();
